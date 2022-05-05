@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\lis_premake">
+      <UniqueIdentifier>{0E45F6C3-FA28-B719-6389-B16C4F8CA19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\lis_premake\include">
+      <UniqueIdentifier>{819AC63D-6DAA-720E-D663-D72CC29261A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\lis_premake\include\lis.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_config_win.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_esolver.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_fortran.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_io.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_matrix.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_matvec.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_mpi.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_precision.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_precon.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_solver.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_system.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lis_vector.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\lislib.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\lis_premake\include\mt19937ar.h">
+      <Filter>vendor\lis_premake\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
