@@ -6,5 +6,5 @@ SetupProject_Lis can be added in your repository by the following command:
 ```sh
 git clone --recursive https://github.com/renancsales/SetupProject_Lis
 ```
-After the cloning process, run  ```scripts/Setup.bat``` to generate VS 2012 solution and project files. 
+After the cloning process, run  ```scripts/Setup.bat``` to generate VS 2019 solution and project files. 
 
