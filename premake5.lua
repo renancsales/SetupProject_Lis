@@ -1,6 +1,7 @@
+projectName = "Lis_App"
 workspace "Setup"
 	architecture "x64"
-	startproject "SetupProject_Lis"
+	startproject  "Lis_App"
 	
 	configurations
 	{
@@ -11,12 +12,13 @@ workspace "Setup"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+
 -- Include directories relative to root folder (sol. directory)
 IncludeDir = {}
-IncludeDir["Lis"] = "SetupProject_Lis/vendor/lis_premake/include"
+IncludeDir["Lis"] = projectName .. "/vendor/lis_premake/include"
 
-project "SetupProject_Lis"
-	location "SetupProject_Lis"
+project "Lis_App"
+	location "Lis_App"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++17"
@@ -36,7 +38,7 @@ project "SetupProject_Lis"
 	}
 	
 	-- Additional library directories
-	libdirs { "SetupProject_Lis/vendor/lis_premake/lib" }
+	libdirs { "%{prj.name}/vendor/lis_premake/lib" }
 	
 	-- OpenMP support
 	buildoptions { "/openmp" }
@@ -60,7 +62,7 @@ project "SetupProject_Lis"
 		
 	-- Filter: Configurations only applied to specific platforms
 	filter "system:windows"
-		--cppdialect "C++17"
+		cppdialect "C++17"
 		--staticruntime "On"
 		systemversion "latest"
 

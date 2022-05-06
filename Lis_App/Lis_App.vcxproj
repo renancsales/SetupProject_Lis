@@ -15,10 +15,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{34FF2CC5-20F8-4B17-492A-319C35822B23}</ProjectGuid>
+    <ProjectGuid>{0D8E4DDB-796D-CC76-8285-574DEEE332D8}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>SetupProject_Lis</RootNamespace>
+    <RootNamespace>Lis_App</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -55,23 +55,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Debug-windows-x86_64\SetupProject_Lis\</OutDir>
-    <IntDir>..\bin-int\Debug-windows-x86_64\SetupProject_Lis\</IntDir>
-    <TargetName>SetupProject_Lis</TargetName>
+    <OutDir>..\bin\Debug-windows-x86_64\Lis_App\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\Lis_App\</IntDir>
+    <TargetName>Lis_App</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Release-windows-x86_64\SetupProject_Lis\</OutDir>
-    <IntDir>..\bin-int\Release-windows-x86_64\SetupProject_Lis\</IntDir>
-    <TargetName>SetupProject_Lis</TargetName>
+    <OutDir>..\bin\Release-windows-x86_64\Lis_App\</OutDir>
+    <IntDir>..\bin-int\Release-windows-x86_64\Lis_App\</IntDir>
+    <TargetName>Lis_App</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Dist-windows-x86_64\SetupProject_Lis\</OutDir>
-    <IntDir>..\bin-int\Dist-windows-x86_64\SetupProject_Lis\</IntDir>
-    <TargetName>SetupProject_Lis</TargetName>
+    <OutDir>..\bin\Dist-windows-x86_64\Lis_App\</OutDir>
+    <IntDir>..\bin-int\Dist-windows-x86_64\Lis_App\</IntDir>
+    <TargetName>Lis_App</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
